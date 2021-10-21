@@ -19,12 +19,10 @@ public class Cnbprs {
                        separatorIndexes.add(i);
                     }
                 }
-
                 Number numericValue = format.parse(currentLine.substring(separatorIndexes.get(3)+1));
                 double doubleValue = numericValue.doubleValue();
                 double czkvalue = 1.00 / doubleValue;
 
-                String stateName = currentLine.substring(0, currentLine.indexOf('|'));
                 String code = currentLine.substring(separatorIndexes.get(2)+1, separatorIndexes.get(3));
                 System.out.printf("%f %s = 1 CZK\n", czkvalue, code);
             }
