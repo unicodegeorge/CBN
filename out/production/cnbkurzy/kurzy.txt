@@ -1,4 +1,4 @@
-Austrálie|dolar|1|AUD|16,434
+Austrálie|dolar|1|AUD|15,687
 Brazílie|real|1|BRL|3,936
 Bulharsko|lev|1|BGN|13,048
 Čína|žen-min-pi|1|CNY|3,435
